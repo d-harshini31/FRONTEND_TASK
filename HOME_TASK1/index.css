@@ -1,13 +1,42 @@
-header{
-    background-color: rgb(175, 182, 185);
-    text-align: center;
+header,.nav,footer{
+    padding-top: 20px;
+    background-color:  rgb(188, 212, 223);
     font-size: 80%;
     font-style: italic;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: auto;
 }
 footer{
-    background-color: rgb(175, 182, 185);
+    margin-top: 420px;
+    margin-bottom: 0;
+}
+.left_content,.right_content
+{
+    padding-top:20%;
+    float:left;
+    height: 400px;
+    width: 18%;
+    background-color: rgb(188, 212, 223);
+}
+.center_content
+{
+    padding-top:20%;
+     height:400px;
+    background-color: rgb(188, 212, 223);
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: -400px;
+}
+.right_content
+{
+    float:right;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
     text-align: center;
-    padding: 30px;
-    font-size: 80%;
+    font-size: 30px;
     font-style: italic;
 }
